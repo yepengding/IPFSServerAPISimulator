@@ -11,6 +11,8 @@ public class IPFSFile {
 
     private Long size;
 
+    private String integrity;
+
     private Long timestamp;
 
 }

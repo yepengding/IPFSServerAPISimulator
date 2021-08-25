@@ -31,16 +31,18 @@ public class IPFSController {
     @ResponseBody
     public CommonResult<IPFSFile> uploadFile(@RequestParam("file") MultipartFile file) throws IOException {
         String cid;
+        String integrity;
 
         try (InputStream is = file.getInputStream()) {
             cid = DigestUtils.md5Hex(is);
             cid = "Qm" + DigestUtils.md5Hex(System.currentTimeMillis() + cid);
+            integrity = DigestUtils.sha256Hex(is);
         }
 
         Assert.notNull(cid, "Failed to generate CID.");
         storageService.store(cid, file);
 
-        return CommonResult.success(new IPFSFile(cid, file.getSize(), System.currentTimeMillis()));
+        return CommonResult.success(new IPFSFile(cid, file.getSize(), integrity, System.currentTimeMillis()));
     }
 
     @GetMapping("/list")
