@@ -30,9 +30,9 @@ public class SwaggerConfig {
                 .useDefaultResponseMessages(false)
                 .globalResponses(HttpMethod.GET, newArrayList(
                         new ResponseBuilder().code("500")
-                                .description("500 message").build(),
+                                .description("Internal Error").build(),
                         new ResponseBuilder().code("403")
-                                .description("Forbidden!!!!!").build()
+                                .description("Forbidden").build()
                 ));
     }
 
