@@ -12,11 +12,12 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import springfox.documentation.annotations.ApiIgnore;
 
 import java.io.IOException;
 import java.util.stream.Collectors;
 
-
+@ApiIgnore
 @Controller
 public class FileUploadController {
 

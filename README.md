@@ -16,6 +16,7 @@ java -jar *.jar
 ```
 
 ## API
+> http://localhost:8080/swagger-ui/
 
 ### Endpoint
 
