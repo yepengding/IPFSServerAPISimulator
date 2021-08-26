@@ -1,4 +1,4 @@
-package jp.gmo.ipfssimulator.exception;
+package org.veritasopher.ipfssimulator.exception;
 
 public class StorageException extends RuntimeException {
 

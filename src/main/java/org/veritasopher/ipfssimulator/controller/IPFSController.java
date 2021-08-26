@@ -1,8 +1,8 @@
-package jp.gmo.ipfssimulator.controller;
+package org.veritasopher.ipfssimulator.controller;
 
-import jp.gmo.ipfssimulator.common.CommonResult;
-import jp.gmo.ipfssimulator.model.IPFSFile;
-import jp.gmo.ipfssimulator.service.StorageService;
+import org.veritasopher.ipfssimulator.common.CommonResult;
+import org.veritasopher.ipfssimulator.model.IPFSFile;
+import org.veritasopher.ipfssimulator.service.StorageService;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;

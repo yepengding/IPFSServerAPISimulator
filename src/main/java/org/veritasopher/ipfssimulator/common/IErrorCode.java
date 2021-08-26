@@ -1,4 +1,4 @@
-package jp.gmo.ipfssimulator.common;
+package org.veritasopher.ipfssimulator.common;
 
 
 public interface IErrorCode {

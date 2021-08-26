@@ -8,7 +8,7 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>jp.gmo</groupId>
+    <groupId>org.veritasopher</groupId>
     <artifactId>IPFSSimulator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>IPFSSimulator</name>

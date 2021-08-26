@@ -1,4 +1,4 @@
-package jp.gmo.ipfssimulator.model;
+package org.veritasopher.ipfssimulator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

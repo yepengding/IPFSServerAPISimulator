@@ -1,4 +1,4 @@
-package jp.gmo.ipfssimulator.service;
+package org.veritasopher.ipfssimulator.service;
 
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;

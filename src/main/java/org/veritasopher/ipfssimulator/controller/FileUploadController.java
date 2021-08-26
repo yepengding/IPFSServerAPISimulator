@@ -1,7 +1,7 @@
-package jp.gmo.ipfssimulator.controller;
+package org.veritasopher.ipfssimulator.controller;
 
-import jp.gmo.ipfssimulator.exception.StorageFileNotFoundException;
-import jp.gmo.ipfssimulator.service.StorageService;
+import org.veritasopher.ipfssimulator.exception.StorageFileNotFoundException;
+import org.veritasopher.ipfssimulator.service.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;

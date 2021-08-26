@@ -1,9 +1,9 @@
-package jp.gmo.ipfssimulator.service.impl;
+package org.veritasopher.ipfssimulator.service.impl;
 
-import jp.gmo.ipfssimulator.config.StorageProperties;
-import jp.gmo.ipfssimulator.service.StorageService;
-import jp.gmo.ipfssimulator.exception.StorageException;
-import jp.gmo.ipfssimulator.exception.StorageFileNotFoundException;
+import org.veritasopher.ipfssimulator.config.StorageProperties;
+import org.veritasopher.ipfssimulator.service.StorageService;
+import org.veritasopher.ipfssimulator.exception.StorageException;
+import org.veritasopher.ipfssimulator.exception.StorageFileNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

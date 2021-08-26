@@ -1,4 +1,4 @@
-package jp.gmo.ipfssimulator.config;
+package org.veritasopher.ipfssimulator.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

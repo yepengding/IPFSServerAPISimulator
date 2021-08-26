@@ -1,7 +1,7 @@
-package jp.gmo.ipfssimulator;
+package org.veritasopher.ipfssimulator;
 
-import jp.gmo.ipfssimulator.config.StorageProperties;
-import jp.gmo.ipfssimulator.service.StorageService;
+import org.veritasopher.ipfssimulator.config.StorageProperties;
+import org.veritasopher.ipfssimulator.service.StorageService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
