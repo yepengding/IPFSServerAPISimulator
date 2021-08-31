@@ -23,7 +23,7 @@ java -jar *.jar
 
 **Contact information:**  
 Yepeng Ding  
-https://yepengding.github.io/  
+https://yepengding.github.io/
 
 **License:** [MIT License](https://github.com/yepengding/IPFSServerAPISimulator/blob/main/LICENSE)
 
@@ -130,3 +130,14 @@ getFileByCID
 | readable | boolean |  | No |
 | uri | string (uri) |  | No |
 | url | string (url) |  | No |
+
+### Reference Documentation
+
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/)
+* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/#build-image)
+* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-jpa-and-spring-data)
+* [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-developing-web-applications)
+* [Thymeleaf](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
