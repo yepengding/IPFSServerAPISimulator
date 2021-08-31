@@ -18,7 +18,7 @@ java -jar *.jar
 
 ## API
 
-> http://localhost:8080/swagger-ui/
+> http://localhost:5001/swagger-ui/
 
 
 **Contact information:**  
@@ -131,9 +131,7 @@ getFileByCID
 | uri | string (uri) |  | No |
 | url | string (url) |  | No |
 
-### Reference Documentation
-
-For further reference, please consider the following sections:
+## Reference
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.5.4/maven-plugin/reference/html/)
@@ -141,3 +139,5 @@ For further reference, please consider the following sections:
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-developing-web-applications)
 * [Thymeleaf](https://docs.spring.io/spring-boot/docs/2.5.4/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
+* [swagger](https://swagger.io/)
+* [guava](https://github.com/google/guava)
